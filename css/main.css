@@ -251,7 +251,133 @@ a {
   color: #383838;
   margin: 0;
 }
-.icon-heart {
+
+/* Contact */
+
+.contact {
 }
-.icon-upload-cloud {
+.container {
+}
+.block__head {
+  padding-top: 95px;
+}
+.block__title {
+}
+.block__text {
+}
+.contact__inner {
+}
+.contact__icon-box {
+  max-width: 570px;
+  margin: 0 auto;
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__item {
+  width: 130px;
+  text-align: center;
+}
+.contact__item i {
+  color: #323232;
+  font-size: 21px;
+}
+.icon-phone {
+}
+.contact__text a {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  transition: 0.3s;
+}
+.contact__text a:hover {
+  color: #4b4b4b;
+  text-decoration: underline;
+}
+.icon-location {
+}
+.icon-mail-alt {
+}
+.contact__form {
+  max-width: 770px;
+  margin: 0 auto;
+  padding-top: 153px;
+  display: flex;
+  flex-direction: column;
+}
+.contact__name,
+.contact__email,
+.contact__number {
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+  border: 1px solid #999999;
+}
+/* Убираем стрелки в input number  */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.contact__textarea {
+  margin-top: 18px;
+  height: 195px;
+  padding: 22px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  border: 1px solid #999999;
+  resize: none;
+}
+
+.contact__button {
+  margin-top: 21px;
+  padding: 20px 0 18px 0;
+  font-family: "HelveticaNeueLTProMd", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  background-color: #161616;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  padding-top: 154px;
+  padding-bottom: 29px;
+  text-align: center;
+}
+.footer__text {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #3b3b3b;
+}
+
+.header {
+  display: none;
+}
+.about {
+  display: none;
+}
+.team {
+  display: none;
+}
+.provide {
+  display: none;
 }
